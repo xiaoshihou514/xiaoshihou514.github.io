@@ -1,0 +1,97 @@
+---
+layout: default
+title: "Home: xiaoshihou514"
+---
+
+<style>
+  h1 {
+    color: #51849e;
+    font-size: 3em;
+    text-align: center;
+  }
+  h2 {
+    color: #51849e;
+    font-size: 2em;
+  }
+  a {
+    color: #42868d;
+  }
+  li {
+    color: #a8aeb4;
+    font-size: 1.3em;
+    margin-bottom: 0.5em;
+  }
+  .container {
+    padding: 2vw;
+    font-size: 0.75;
+  }
+  .project {
+    border-style: solid;
+    border-radius: 0.5em;
+    border-color: #7e858a;
+    box-sizing: border-box;
+    width: 20em;
+    padding: 12px;
+  }
+  .project .title {
+    padding: 12px;
+    font-size: 1.5em;
+    color: #51849e;
+  }
+  .project .desc {
+    padding: 12px;
+    font-size: 1em;
+    color: #a8aeb4;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 20em);
+    column-gap: 1em;
+    row-gap: 1em;
+  }
+</style>
+
+<div class="container">
+  <h1>xiaoshihou514</h1>
+  <h2>About me</h2>
+  <ul>
+    <li>👋 Hi, I am xiaoshihou514.</li>
+    <li>
+      💻 I am proficient in programming in most imperative languages, currently
+      focusing on
+      <a href="https://ziglang.org">Zig</a> and
+      <a href="https://scala-lang.org">Scala</a>
+    </li>
+    <li>
+      💪 I can tackle analytical and computational further maths problems.
+    </li>
+    <li>
+      📚 I am interested in programming language theory and low-level
+      development.
+    </li>
+    <li>👀 During my free time, I build interesting software for fun.</li>
+    <li>📝 My favourite text editor is <a href="neovim.io">Neovim</a></li>
+    <li>🏃 I enjoy single person sports like jogging and swimming.</li>
+    <li>📫 How to reach me:</li>
+    <ul>
+      <li>
+        <a href="mailto:onelessononeexercise@gmail.com">Send me an Email</a>
+      </li>
+    </ul>
+  </ul>
+  <h2>Projects</h2>
+  <div class="grid-container">
+    <div class="project">
+      <a href="ndpc" class="title">ndpc</a>
+      <p class="desc">Toy compiler for natural deduction proofs</p>
+    </div>
+  </div>
+  <h2>Blogs</h2>
+  <ul>
+    {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
