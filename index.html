@@ -1,30 +1,9 @@
 ---
 layout: default
-title: "Home: xiaoshihou514"
+title: "xiaoshihou514"
 ---
 
 <style>
-  h1 {
-    color: #51849e;
-    font-size: 3em;
-    text-align: center;
-  }
-  h2 {
-    color: #51849e;
-    font-size: 2em;
-  }
-  a {
-    color: #42868d;
-  }
-  li {
-    color: #a8aeb4;
-    font-size: 1.3em;
-    margin-bottom: 0.5em;
-  }
-  .container {
-    padding: 2vw;
-    font-size: 0.75;
-  }
   .project {
     border-style: solid;
     border-radius: 0.5em;
@@ -49,10 +28,12 @@ title: "Home: xiaoshihou514"
     column-gap: 1em;
     row-gap: 1em;
   }
+  h2 a {
+    color: #51849e;
+  }
 </style>
 
 <div class="container">
-  <h1>xiaoshihou514</h1>
   <h2>About me</h2>
   <ul>
     <li>👋 Hi, I am xiaoshihou514.</li>
@@ -79,16 +60,16 @@ title: "Home: xiaoshihou514"
       </li>
     </ul>
   </ul>
-  <h2>Projects</h2>
+  <h2><a href="/projects">Projects</a></h2>
   <div class="grid-container">
     <div class="project">
       <a href="ndpc" class="title">ndpc</a>
       <p class="desc">Toy compiler for natural deduction proofs</p>
     </div>
   </div>
-  <h2>Blogs</h2>
+  <h2><a href="/blog">Blogs</a></h2>
   <ul>
-    {% for post in site.posts %}
+    {% for post in site.posts limit:5 %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
     </li>

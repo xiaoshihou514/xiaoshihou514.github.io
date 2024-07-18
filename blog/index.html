@@ -1,0 +1,46 @@
+---
+layout: default
+title: Blog posts
+---
+
+<style>
+  footer {
+    text-align: center;
+    padding: 2em 4em 1em; 
+    font-size: 1.2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+</style>
+
+<div class="container">
+  {% for post in paginator.posts %}
+    <h3>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      {{post.date | date: "%Y.%m.%d"}}
+    </h3>
+  {% endfor %}
+
+  <!-- nav buttons -->
+  <footer>
+    <a href="/" style="margin-right: auto;">
+      Back to home
+    </a>
+    <div class="pagination">
+      {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path }}" class="previous"> Prev </a>
+      {% else %}
+      <span class="previous"> Prev </span>
+      {% endif %}
+      <span class="page_number">
+        {{ paginator.page }}/{{ paginator.total_pages }}
+      </span>
+      {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+      {% else %}
+      <span class="next">Next</span>
+      {% endif %}
+    </div>
+  </footer>
+</div>

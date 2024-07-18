@@ -17,9 +17,38 @@
         background-color: #1f2224;
         font-family: "Fira Code", monospace;
       }
+      h1 {
+        color: #51849e;
+        font-size: 3em;
+        text-align: center;
+      }
+      h2 {
+        color: #51849e;
+        font-size: 2em;
+      }
+      a {
+        color: #42868d;
+      }
+      li {
+        font-size: 1.3em;
+        margin-bottom: 0.5em;
+      }
+      * {
+        color: #a8aeb4;
+      }
+      .container {
+        padding: 2vw;
+        font-size: 0.75;
+      }
+      header a {
+		padding: 0.8em;
+		background: #323639;
+        color: #a8aeb4;
+      }
     </style>
   </head>
   <body>
+    <h1>{{ page.title }}</h1>
     {{ content }}
   </body>
 </html>
