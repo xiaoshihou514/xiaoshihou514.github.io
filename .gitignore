@@ -1,2 +1,3 @@
-_site
-.jekyll*
+node_modules
+.vitepress/dist
+.vitepress/cache

@@ -1,3 +1,0 @@
-plugins: ["jekyll-paginate"]
-paginate: 20
-paginate_path: "/blog/p:num/"

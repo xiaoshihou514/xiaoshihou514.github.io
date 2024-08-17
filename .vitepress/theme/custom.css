@@ -1,0 +1,44 @@
+@import url(https://code.cdn.mozilla.net/fonts/fira.css);
+@import url(https://cdn.jsdelivr.net/npm/firacode@6.2.0/distr/fira_code.css);
+
+:root {
+  /* doc font */
+  --vp-font-family-base: 'Fira Sans';
+  /* code font */
+  --vp-font-family-mono: 'Fira Code';
+}
+
+/* color palette */
+:root {
+  --vp-c-gray-1: #6a7175;
+  --vp-c-gray-2: #575c61;
+  --vp-c-gray-3: #44494c;
+  --vp-c-gray-soft: #323639;
+
+  --vp-c-indigo-1: #42868d;
+  --vp-c-indigo-2: #42868d;
+  --vp-c-indigo-3: #51849e;
+  --vp-c-indigo-soft: #51849e;
+
+  --vp-c-purple-1: #876aa8;
+  --vp-c-purple-2: #876aa8;
+  --vp-c-purple-3: #876aa8;
+  --vp-c-purple-soft: #876aa8;
+
+  --vp-c-green-1: #738b58;
+  --vp-c-green-2: #738b58;
+  --vp-c-green-3: #738b58;
+  --vp-c-green-soft: #738b58;
+
+  --vp-c-yellow-1: #c9bb7f;
+  --vp-c-yellow-2: #c9bb7f;
+  --vp-c-yellow-3: #c9bb7f;
+  --vp-c-yellow-soft: #c9bb7f;
+
+  --vp-c-red-1: #d89e98;
+  --vp-c-red-2: #d89e98;
+  --vp-c-red-3: #d89e98;
+  --vp-c-red-soft: #d89e98;
+
+  --vp-c-sponsor: #c59eb4;
+}
