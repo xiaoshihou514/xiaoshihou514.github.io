@@ -9,7 +9,7 @@
 - ✍️ I occasionally write down what I've learned [here](/blogs/index)
 - 🏃 I enjoy single person sports like jogging and swimming.
 - 📫 How to reach me:
-  - [Send me an Email](mailto:onelessononeexercise@gmail.com)
+  - [Send me an Email](mailto:xiaoshihou@tutamail.com)
 
 # Projects
 
