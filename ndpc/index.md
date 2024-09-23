@@ -15,7 +15,7 @@ hero:
 
 features:
   - title: 😊 Easy to use
-    details: No more errornouse clicking for logical connectives! Type your proof in a file with your favourite editor!
+    details: No more errornous clicking for logical connectives! Type your proof in a file with your favourite editor!
   - title: 🚀 Fast and correct
     details: ndpc is built upon the awesome parsing framework parsley, allowing for a robust syntax and fast parsing.
   - title: 💡 Modern
