@@ -39,7 +39,7 @@ ndpc example.ndp
 
 ## What's next?
 
-- Learn [the basic syntax](/ndpc/syntax)
+- Follow [the tutorial](/ndpc/tutorial) to learn the basics!
 - ndpc has a few syntax particularities, please read them [here](/ndpc/syntax-gotchas) before writing more complex proofs. Don't worry, your proof won't be that different from what you are used to seeing on the slides!
 - Get a peek at what rules does ndpc support [here](/ndpc/rules). Check this if ndpc thinks your proof is not valid :)
 - Leverage other shiny capabilities of ndpc, say [formatting](/ndpc/toolchain) and [generating pretty html](/ndpc/toolchain)?

@@ -17,12 +17,19 @@ export default defineConfig({
     sidebar: {
       "/ndpc/": [
         {
-          "text": "Ndpc",
-          "items": [
-            { "text": "Getting started", "link": "/ndpc/getting-started" }
-          ]
-        }
-      ]
-    }
+          text: "Ndpc",
+          items: [
+            { text: "Getting started", link: "/ndpc/getting-started" },
+            { text: "Tutorial", link: "/ndpc/tutorial" },
+            {
+              text: "Gotcha! Notes about syntax",
+              link: "/ndpc/syntax-gotchas",
+            },
+            { text: "List of supported rules", link: "/ndpc/rules" },
+            { text: "Additional toolchain support", link: "/ndpc/toolchain" },
+          ],
+        },
+      ],
+    },
   },
 });
