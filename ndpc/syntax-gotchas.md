@@ -18,7 +18,7 @@
 
 - When do I use the `tick` rule?
 
-  - You can use it whenever you feel like to, but you _MUST_ use it if you are existing a box, _AND_ your next line does not make it clear by deindenting. See below:
+  - You can use it whenever you feel like to, but you _MUST_ use it if you are exiting a box, _AND_ your next line does not make it clear by deindenting. See below:
 
   ```
   bar(y)      [premise]

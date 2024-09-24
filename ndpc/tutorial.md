@@ -21,8 +21,6 @@ q              [->E(1,2)]
 
 Complete the proof yourself!
 
-[answer](#exercise-1)
-
 :::details answer
 
 ```
