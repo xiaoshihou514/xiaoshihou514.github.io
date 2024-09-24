@@ -19,8 +19,6 @@
 
 <ProjectCard title="ndpc" desc="Natural deduction proof compiler" lang="Scala" lang_color="#C12C40" href="/ndpc" />
 
-<ProjectCard title="aristotle" desc="Easy to use gui frontend for ndpc" lang="C++" lang_color="#F34B7C" href="/ndpc/aristotle" />
-
 <ProjectCard title="zig-buffer-kit" desc="Data structures for building a text buffer in zig" lang="Zig" lang_color="#EC905B" href="/zig-buffer-kit" />
 
 <ProjectCard title="guard.nvim (Lead maintainer)" desc="Async fast minimalist formatting plugin for Neovim" lang="Lua" lang_color="#00007F" href="https://github.com/nvimdev/guard.nvim" />

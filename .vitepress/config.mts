@@ -14,5 +14,22 @@ export default defineConfig({
     ],
     search: { provider: "local" },
     socialLinks: [{ icon: "github", link: "https://github.com/xiaoshihou514" }],
+    sidebar: {
+      "/ndpc/": [
+        {
+          text: "Ndpc",
+          items: [
+            { text: "Getting started", link: "/ndpc/getting-started" },
+            { text: "Tutorial", link: "/ndpc/tutorial" },
+            {
+              text: "Gotcha! Notes about syntax",
+              link: "/ndpc/syntax-gotchas",
+            },
+            { text: "List of supported rules", link: "/ndpc/rules" },
+            { text: "Additional toolchain support", link: "/ndpc/toolchain" },
+          ],
+        },
+      ],
+    },
   },
 });
