@@ -9,7 +9,7 @@
 }
 
 /* color palette */
-:root {
+.dark {
   --vp-c-gray-1: #6a7175;
   --vp-c-gray-2: #575c61;
   --vp-c-gray-3: #44494c;

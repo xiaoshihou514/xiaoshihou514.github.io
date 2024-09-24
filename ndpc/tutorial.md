@@ -23,6 +23,19 @@ Complete the proof yourself!
 
 [answer](#exercise-1)
 
+:::details answer
+
+```
+p              [premise]
+p -> q         [premise]
+p -> (q -> r)  [premise]
+q              [->E(1,2)]
+q -> r         [->E(1,3)]
+r              [->(4,5)]
+```
+
+:::
+
 ## Boxes
 
 To prove more complex assertions, we have to use `boxes` to make assumptions. For example, to use `implication introduction` to prove `p -> q`, you have to assume p and deduce q in that box.
@@ -60,7 +73,18 @@ I'm sure you know how it works now, why not prove that the opposite is true as w
 Prove that p -> (q -> r) ⊢ (p ^ q) -> r
 :::
 
-[answer](#exercise-2)
+:::details answer
+
+```
+p              [premise]
+p -> q         [premise]
+p -> (q -> r)  [premise]
+q              [->E(1,2)]
+q -> r         [->E(1,3)]
+r              [->(4,5)]
+```
+
+:::
 
 ## What next?
 
@@ -71,27 +95,3 @@ I'm sure you are on a hurry, but if you have time (or you encountered some probl
 - ndpc has a few syntax particularities, please about them [here](/ndpc/syntax-gotchas) before opening an issue.
 - Get a peek at what rules does ndpc support [here](/ndpc/rules). Check this if ndpc thinks your proof is not valid :)
 - Leverage other shiny capabilities of ndpc, such as [formatting](/ndpc/toolchain) and [generating pretty html](/ndpc/toolchain).
-
-## Answers
-
-### Exercise 1:
-
-```
-p              [premise]
-p -> q         [premise]
-p -> (q -> r)  [premise]
-q              [->E(1,2)]
-q -> r         [->E(1,3)]
-r              [->(4,5)]
-```
-
-### Exercise 2:
-
-```
-p              [premise]
-p -> q         [premise]
-p -> (q -> r)  [premise]
-q              [->E(1,2)]
-q -> r         [->E(1,3)]
-r              [->(4,5)]
-```

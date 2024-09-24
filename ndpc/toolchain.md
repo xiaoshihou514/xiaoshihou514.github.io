@@ -59,4 +59,4 @@ This will generate `proof.html`. You can do whatever you want with it :)
 
 You can style it however you want by passing `--css [FILE]`. Read the generated HTML to see how is it done.
 
-[Example output](/ndpc/example_compile_out.html), you may have to reload if you see a 404.
+[Example output](/ndpc/example_compile_out), [you may have to reload if you see a 404](https://github.com/vuejs/vitepress/issues/4058).
