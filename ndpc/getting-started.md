@@ -15,7 +15,7 @@ You need to have [git](https://git-scm.com/) and [scala](https://scala-lang.org)
 ```bash
 git clone https://github.com/xiaoshihou514/ndpc
 cd ndpc
-scala --power package . -o ndpc
+scala --power package . -o ndpc --native-mode release-full
 ```
 
 ## The first proof
