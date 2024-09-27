@@ -19,7 +19,7 @@
 
 <ProjectCard title="ndpc" desc="Natural deduction proof compiler" lang="Scala" lang_color="#C12C40" href="/ndpc" />
 
-<ProjectCard title="aristotle" desc="Easy to use gui frontend for ndpc" lang="C++" lang_color="#F34B7C" href="/ndpc/aristotle" />
+<ProjectCard title="aristotle" desc="Easy to use gui frontend for ndpc" lang="C++" lang_color="#F34B7C" href="https://github.com/xiaoshihou514/aristotle" />
 
 <ProjectCard title="guard.nvim (Lead maintainer)" desc="Async fast minimalist formatting plugin for Neovim" lang="Lua" lang_color="#00007F" href="https://github.com/nvimdev/guard.nvim" />
 
