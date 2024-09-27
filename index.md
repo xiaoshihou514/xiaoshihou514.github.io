@@ -1,7 +1,7 @@
 # About me
 
 - 👋 Hi, I am xiaoshihou514.
-- 💻 I am proficient in programming in most imperative languages, currently focusing on [Scala](https://scala-lang.org) and [Zig](https://ziglang.org) 
+- 💻 I am proficient in programming in most imperative languages, currently focusing on [Scala](https://scala-lang.org) and [Zig](https://ziglang.org)
 - 💪 I can tackle analytical and computational further maths problems.
 - 📚 I am interested in programming language theory and low-level development.
 - 📝 My favourite text editor is [Neovim](https://neovim.io)
@@ -19,7 +19,7 @@
 
 <ProjectCard title="ndpc" desc="Natural deduction proof compiler" lang="Scala" lang_color="#C12C40" href="/ndpc" />
 
-<ProjectCard title="zig-buffer-kit" desc="Data structures for building a text buffer in zig" lang="Zig" lang_color="#EC905B" href="/zig-buffer-kit" />
+<ProjectCard title="aristotle" desc="Easy to use gui frontend for ndpc" lang="C++" lang_color="#F34B7C" href="/ndpc/aristotle" />
 
 <ProjectCard title="guard.nvim (Lead maintainer)" desc="Async fast minimalist formatting plugin for Neovim" lang="Lua" lang_color="#00007F" href="https://github.com/nvimdev/guard.nvim" />
 
