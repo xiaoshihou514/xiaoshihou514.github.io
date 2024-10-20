@@ -3,7 +3,7 @@
 - 👋 Hi, I am xiaoshihou514.
 - 💻 I am proficient in programming in most imperative languages, currently focusing on [Scala](https://scala-lang.org) and [Zig](https://ziglang.org)
 - 💪 I can tackle analytical and computational further maths problems.
-- 📚 I am interested in programming language theory and low-level development.
+- 📚 I am interested in programming languages and type theory.
 - 📝 My favourite text editor is [Neovim](https://neovim.io)
 - 👀 During my free time, I build interesting software for fun.
 - ✍️ I occasionally write down what I've learned [here](/blogs/index)
