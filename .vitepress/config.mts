@@ -26,7 +26,7 @@ export default defineConfig({
               link: "/ndpc/syntax-gotchas",
             },
             { text: "List of supported rules", link: "/ndpc/rules" },
-            { text: "Specification of every rule", link: "/ndpc/rules-spec" },
+            { text: "Specification for every rule", link: "/ndpc/rules-spec" },
             { text: "Additional toolchain support", link: "/ndpc/toolchain" },
           ],
         },

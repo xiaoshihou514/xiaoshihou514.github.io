@@ -10,7 +10,7 @@
 |   ~I    |       Not Introduction       | from "assuming original deduces bottom" deduce its negation |
 |   ~~I   | Double Negation Introduction |                      from x deduce ~~x                      |
 |   FI    |     Falsity Introduction     |                   from x and ~x deduce F                    |
-|   TI    |      Truth Introduction      |     from nothing deduces T (but why would you do that?)     |
+|   TI    |      Truth Introduction      | from nothing deduces T (but why would you do that :smirk:)  |
 |  <->I   |   Equivalence Introduction   |            from x -> y and y -> x deduce x <-> y            |
 | existsI |     Exists Introduction      |                  from 𝝓(x) deduce ∃a 𝝓(a)                   |
 | forallI |     Forall Introduction      |            from "c deduces f(c)" deduce ∀x f(x)             |
