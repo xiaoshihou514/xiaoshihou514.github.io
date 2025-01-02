@@ -27,21 +27,21 @@
 |    FE     |      Falsity Elimination       |                          from F deduce anything                          |
 |   <->E    |    Equivalence Elimination     |           from x <-> y and either side, deduce the other side            |
 |  existsE  |       Exists Elimination       |          from ∃a 𝝓(a) and "𝝓(c) for some c deduces x", deduce x          |
-|  forallE  |       Forall Elimination       |                         from ∀x f deduce f[x/c]                          |
+|  forallE  |       Forall Elimination       |                        from ∀x f(x) deduce f[x/c]                        |
 | forall->E | Forall Implication Elimination |               from ∀x f(x) -> g(x) and f(c), deduces g(c)                |
 
 ## Special
 
-|     Symbol     |         Reads          |            Argument Semantics            |
-| :------------: | :--------------------: | :--------------------------------------: |
-|      LEM       | Law of Excluded Middle |        from nothing deduce p / ~p        |
-|       MT       |     Modus Tollens      |      from x -> y and ~y, deduce ~x       |
-|       PC       | Proof by Contradiction |  from "assuming x deduces F", deduce ~x  |
-|      refl      |   rule of Reflection   |        from nothing deduce x = x         |
-|      =sub      | Equality Substitution  |     from a = b and f(a), deduce f(b)     |
-|      sym       |    rule of Symmetry    |         from a = b deduce b = a          |
-| forall I const |     forall I const     |      introduces a new free variable      |
-|     given      |         Given          |       given proposition / formula        |
-|    premise     |        Premise         |       given proposition / formula        |
-|      ass       |       Assumption       |       assume proposition / formula       |
-|      tick      |          Tick          | from x deduce x (to improve readability) |
+|     Symbol     |         Reads          |           Argument Semantics           |
+| :------------: | :--------------------: | :------------------------------------: |
+|      LEM       | Law of Excluded Middle |       from nothing deduce p / ~p       |
+|       MT       |     Modus Tollens      |     from x -> y and ~y, deduce ~x      |
+|       PC       | Proof by Contradiction | from "assuming x deduces F", deduce ~x |
+|      refl      |   rule of Reflection   |       from nothing deduce x = x        |
+|      =sub      | Equality Substitution  |    from a = b and f(a), deduce f(b)    |
+|      sym       |    rule of Symmetry    |        from a = b deduce b = a         |
+| forall I const |     forall I const     |     introduces a new free variable     |
+|     given      |         Given          |      given proposition / formula       |
+|    premise     |        Premise         |      given proposition / formula       |
+|      ass       |       Assumption       |      assume proposition / formula      |
+|      tick      |          Tick          |    from x deduce x (syntactic flag)    |
