@@ -17,10 +17,10 @@ export default defineConfig({
       lang: "zh",
       themeConfig: {
         nav: [
-          { text: "首页", link: "/" },
-          { text: "博客", link: "/blogs" },
+          { text: "首页", link: "/zh" },
+          { text: "博客", link: "/zh/blogs" },
         ],
-      }
+      },
     },
   },
   themeConfig: {
@@ -28,7 +28,29 @@ export default defineConfig({
       { text: "Home", link: "/" },
       { text: "Blogs", link: "/blogs" },
     ],
-    search: { provider: "local" },
+    search: {
+      provider: "local",
+      options: {
+        locales: {
+          zh: {
+            translations: {
+              button: {
+                buttonText: "搜索",
+                buttonAriaLabel: "搜索",
+              },
+              modal: {
+                noResultsText: "无法找到相关结果",
+                resetButtonTitle: "清除查询条件",
+                footer: {
+                  selectText: "选择",
+                  navigateText: "切换",
+                },
+              },
+            },
+          },
+        },
+      },
+    },
     socialLinks: [{ icon: "github", link: "https://github.com/xiaoshihou514" }],
     sidebar: {
       "/ndpc/": [
