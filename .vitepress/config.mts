@@ -7,6 +7,22 @@ export default defineConfig({
   markdown: {
     theme: JSON.parse(fs.readFileSync("./.vitepress/moonlight.json", "utf8")),
   },
+  locales: {
+    root: {
+      label: "English",
+      lang: "en",
+    },
+    zh: {
+      label: "中文",
+      lang: "zh",
+      themeConfig: {
+        nav: [
+          { text: "首页", link: "/" },
+          { text: "博客", link: "/blogs" },
+        ],
+      }
+    },
+  },
   themeConfig: {
     nav: [
       { text: "Home", link: "/" },
