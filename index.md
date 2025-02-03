@@ -19,8 +19,7 @@
   import { onMounted } from 'vue'
   const langs = new Set(['zh'])
   onMounted(() => {
-    if (!window) { return }
-    if (localStorage.getItem('xsh_blog_lang')) { return }
+    if (!window || localStorage.getItem('xsh_blog_lang')) { return }
     localStorage.setItem('xsh_blog_lang', true)
     const userLang = navigator.language || 'en'
     langs.forEach(l => { if (userLang.startsWith(l)) {
