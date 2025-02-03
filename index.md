@@ -14,8 +14,19 @@
 
 # Projects
 
-<script setup> 
+<script setup lang="ts">
   import ProjectCard from './components/ProjectCard.vue'
+  import { onMounted } from 'vue'
+  const langs = new Set(['zh'])
+  onMounted(() => {
+    if (!window) { return }
+    if (localStorage.getItem('xsh_blog_lang')) { return }
+    localStorage.setItem('xsh_blog_lang', true)
+    const userLang = navigator.language || 'en'
+    langs.forEach(l => { if (userLang.startsWith(l)) {
+      window.location.replace(`/${l}${window.location.pathname}`)
+    }})
+  })
 </script>
 
 <ProjectCard title="ndpc" desc="Natural deduction proof compiler" lang="Scala" lang_color="#C12C40" href="/ndpc" />
