@@ -22,7 +22,7 @@
 
 <ProjectCard title="ndpc" desc="自然推理编译器" lang="Scala" lang_color="#C12C40" href="/ndpc" />
 
-<ProjectCard title="aristotle" desc="ndpc的Qt前端" lang="C++" lang_color="#F34B7C" href="https://github.com/xiaoshihou514/aristotle" />
+<ProjectCard title="aristotle" desc="ndpc的ImGui前端" lang="C++" lang_color="#F34B7C" href="https://github.com/xiaoshihou514/aristotle" />
 
 <ProjectCard title="guard.nvim (主维护者)" desc="轻量，高速，异步的Neovim格式化／代码检查接口" lang="Lua" lang_color="#00007F" href="https://github.com/nvimdev/guard.nvim" />
 
