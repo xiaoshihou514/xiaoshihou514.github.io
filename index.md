@@ -32,6 +32,8 @@
 
 <ProjectCard title="aristotle" desc="Easy to use gui frontend for ndpc" lang="C++" lang_color="#F34B7C" href="https://github.com/xiaoshihou514/aristotle" />
 
+<ProjectCard title="git-biance" desc="Shows and visualizes contributions in a git repo" lang="Rust" lang_color="#DDA583" href="https://github.com/xiaoshihou514/git-biance" />
+
 <ProjectCard title="guard.nvim (Lead maintainer)" desc="Lightweight, fast and async formatting and linting plugin for Neovim" lang="Lua" lang_color="#00007F" href="https://github.com/nvimdev/guard.nvim" />
 
 <ProjectCard title="wrench" desc="Minimal alternative to GNU make for your C project" lang="Python" lang_color="#3571A5" href="https://github.com/xiaoshihou514/wrench" />
