@@ -107,7 +107,7 @@
             <div class="box">
               <ul>
                 <li>
-                  <p>1</p>
+                  <p>6</p>
                   c
                   <div class="rule">forall I const</div>
                 </li>
@@ -115,7 +115,7 @@
                   <div class="box">
                     <ul>
                       <li>
-                        <p>1</p>
+                        <p>7</p>
                         dragon(c)
                         <div class="rule">ass</div>
                       </li>
@@ -123,7 +123,7 @@
                         <div class="box">
                           <ul>
                             <li>
-                              <p>1</p>
+                              <p>8</p>
                               green(c)
                               <div class="rule">ass</div>
                             </li>
@@ -131,7 +131,7 @@
                               <div class="box">
                                 <ul>
                                   <li>
-                                    <p>1</p>
+                                    <p>9</p>
                                     d
                                     <div class="rule">forall I const</div>
                                   </li>
@@ -139,20 +139,20 @@
                                     <div class="box">
                                       <ul>
                                         <li>
-                                          <p>1</p>
+                                          <p>10</p>
                                           child(d, c)
                                           <div class="rule">ass</div>
                                         </li>
 
                                         <li>
-                                          <p>2</p>
+                                          <p>11</p>
                                           &forall; y. (child(y, c) &rarr;
                                           parent(c, y))
                                           <div class="rule">&forall;E(5)</div>
                                         </li>
 
                                         <li>
-                                          <p>3</p>
+                                          <p>12</p>
                                           parent(c, d)
                                           <div class="rule">
                                             &forall;->E(10, 11)
@@ -160,20 +160,20 @@
                                         </li>
 
                                         <li>
-                                          <p>4</p>
+                                          <p>13</p>
                                           parent(c, d) &and; green(c)
                                           <div class="rule">&and;I(12, 8)</div>
                                         </li>
 
                                         <li>
-                                          <p>5</p>
+                                          <p>14</p>
                                           &exist; y. (parent(y, d) &and;
                                           green(y))
                                           <div class="rule">&exist;I(13)</div>
                                         </li>
 
                                         <li>
-                                          <p>6</p>
+                                          <p>15</p>
                                           green(d)
                                           <div class="rule">
                                             &forall;->E(14, 3)
@@ -181,20 +181,20 @@
                                         </li>
 
                                         <li>
-                                          <p>7</p>
+                                          <p>16</p>
                                           child(d, c) &and; dragon(c)
                                           <div class="rule">&and;I(10, 7)</div>
                                         </li>
 
                                         <li>
-                                          <p>8</p>
+                                          <p>17</p>
                                           &forall; x. (child(x, c) &and;
                                           dragon(c) &rarr; dragon(x))
                                           <div class="rule">&forall;E(4)</div>
                                         </li>
 
                                         <li>
-                                          <p>9</p>
+                                          <p>18</p>
                                           dragon(d)
                                           <div class="rule">
                                             &forall;->E(16, 17)
@@ -202,13 +202,13 @@
                                         </li>
 
                                         <li>
-                                          <p>10</p>
+                                          <p>19</p>
                                           green(d) &and; dragon(d)
                                           <div class="rule">&and;I(15, 18)</div>
                                         </li>
 
                                         <li>
-                                          <p>11</p>
+                                          <p>20</p>
                                           fly(d)
                                           <div class="rule">
                                             &forall;->E(19, 2)
@@ -218,7 +218,7 @@
                                     </div>
                                   </li>
                                   <li>
-                                    <p>12</p>
+                                    <p>21</p>
                                     child(d, c) &rarr; fly(d)
                                     <div class="rule">&rarr;I(10, 20)</div>
                                   </li>
@@ -226,20 +226,20 @@
                               </div>
                             </li>
                             <li>
-                              <p>13</p>
+                              <p>22</p>
                               &forall; y. (child(y, c) &rarr; fly(y))
                               <div class="rule">&forall;I(9, 21)</div>
                             </li>
 
                             <li>
-                              <p>14</p>
+                              <p>23</p>
                               (&forall; y. (child(y, c) &rarr; fly(y))) &and;
                               dragon(c)
                               <div class="rule">&and;I(22, 7)</div>
                             </li>
 
                             <li>
-                              <p>15</p>
+                              <p>24</p>
                               happy(c)
                               <div class="rule">&forall;->E(23, 1)</div>
                             </li>
@@ -247,7 +247,7 @@
                         </div>
                       </li>
                       <li>
-                        <p>16</p>
+                        <p>25</p>
                         green(c) &rarr; happy(c)
                         <div class="rule">&rarr;I(8, 24)</div>
                       </li>
@@ -255,7 +255,7 @@
                   </div>
                 </li>
                 <li>
-                  <p>17</p>
+                  <p>26</p>
                   dragon(c) &rarr; (green(c) &rarr; happy(c))
                   <div class="rule">&rarr;I(7, 25)</div>
                 </li>
@@ -263,7 +263,7 @@
             </div>
           </li>
           <li>
-            <p>18</p>
+            <p>27</p>
             &forall; x. (dragon(x) &rarr; (green(x) &rarr; happy(x)))
             <div class="rule">&forall;I(6, 26)</div>
           </li>
