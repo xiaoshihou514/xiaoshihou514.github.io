@@ -24,6 +24,8 @@
 
 <ProjectCard title="aristotle" desc="ndpc的ImGui前端" lang="C++" lang_color="#F34B7C" href="https://github.com/xiaoshihou514/aristotle" />
 
+<ProjectCard title="sefenbu" desc="可视化图片的颜色分布" lang="Rust" lang_color="#DDA583" href="https://github.com/xiaoshihou514/sefenbu" />
+
 <ProjectCard title="git-biance" desc="打印或可视化git贡献，鞭策你的队友" lang="Rust" lang_color="#DDA583" href="https://github.com/xiaoshihou514/git-biance" />
 
 <ProjectCard title="guard.nvim (主维护者)" desc="轻量，高速，异步的Neovim格式化／代码检查接口" lang="Lua" lang_color="#00007F" href="https://github.com/nvimdev/guard.nvim" />

@@ -34,6 +34,8 @@
 
 <ProjectCard title="git-biance" desc="Shows and visualizes contributions in a git repo" lang="Rust" lang_color="#DDA583" href="https://github.com/xiaoshihou514/git-biance" />
 
+<ProjectCard title="sefenbu" desc="Visualizes OKHSV color distribution for an image" lang="Rust" lang_color="#DDA583" href="https://github.com/xiaoshihou514/sefenbu" />
+
 <ProjectCard title="guard.nvim (Lead maintainer)" desc="Lightweight, fast and async formatting and linting plugin for Neovim" lang="Lua" lang_color="#00007F" href="https://github.com/nvimdev/guard.nvim" />
 
 <ProjectCard title="wrench" desc="Minimal alternative to GNU make for your C project" lang="Python" lang_color="#3571A5" href="https://github.com/xiaoshihou514/wrench" />
