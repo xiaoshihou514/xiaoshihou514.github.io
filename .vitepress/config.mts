@@ -1,6 +1,21 @@
 import { defineConfig } from "vitepress";
 import fs from "fs";
 
+async function fetchSVG(url) {
+  const response = await fetch(url);
+  return response.text();
+}
+
+const sourcehut_svg = await fetchSVG("https://sourcehut.org/sourcehut.svg");
+const codeberg_svg = await fetchSVG(
+  "https://codeberg.org/Codeberg/Design/raw/branch/main/logo/icon/svg/codeberg-logo_icon_blue.svg",
+);
+const gitlab_svg = await fetchSVG(
+  "https://www.svgrepo.com/download/448226/gitlab.svg",
+);
+
+console.log(sourcehut_svg, codeberg_svg, gitlab_svg);
+
 export default defineConfig({
   title: "xiaoshihou514",
   description: "xiaoshihou514's personal site",
@@ -51,7 +66,24 @@ export default defineConfig({
         },
       },
     },
-    socialLinks: [{ icon: "github", link: "https://github.com/xiaoshihou514" }],
+    socialLinks: [
+      { icon: "github", link: "https://github.com/xiaoshihou514" },
+      {
+        icon: { svg: sourcehut_svg },
+        link: "https://git.sr.ht/~xiaoshihou/",
+        ariaLabel: "Sourcehut",
+      },
+      {
+        icon: { svg: codeberg_svg },
+        link: "https://codeberg.org/xiaoshihou/",
+        ariaLabel: "Codeberg",
+      },
+      {
+        icon: { svg: gitlab_svg },
+        link: "https://gitlab.com/xiaoshihou/",
+        ariaLabel: "Gitlab",
+      },
+    ],
     sidebar: {
       "/ndpc/": [
         {
