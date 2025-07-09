@@ -37,6 +37,16 @@ export default defineConfig({
         ],
       },
     },
+    ja: {
+      label: "日本語",
+      lang: "ja",
+      themeConfig: {
+        nav: [
+          { text: "ホーム", link: "/ja" },
+          { text: "ブログ", link: "/ja/blogs" },
+        ],
+      },
+    },
   },
   themeConfig: {
     nav: [
