@@ -1,6 +1,6 @@
 # ニーハオ!
 
-- 👋 xiaoshihou514です。
+- 👋 xiaoshihou514です。(xiǎo shí hòu・小时候・小さい時)
 - 💻 functional programmingやimperative programmingは得意です、今の推しは[Scala](https://scala-lang.org)です。
 - 💪 解析学と応用数学ができる。
 - 📚 プログランミング言語は大好き！！類型論、プログラム検証、言語リファレンス、並行プログランミングは関心がある。
