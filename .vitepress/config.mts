@@ -11,10 +11,8 @@ const codeberg_svg = await fetchSVG(
   "https://codeberg.org/Codeberg/Design/raw/branch/main/logo/icon/svg/codeberg-logo_icon_blue.svg",
 );
 const gitlab_svg = await fetchSVG(
-  "https://www.svgrepo.com/download/448226/gitlab.svg",
+  "https://companieslogo.com/img/orig/GTLB-6b2d0bd2.svg?t=1752297942&download=true",
 );
-
-console.log(sourcehut_svg, codeberg_svg, gitlab_svg);
 
 export default defineConfig({
   title: "xiaoshihou514",
@@ -34,6 +32,7 @@ export default defineConfig({
         nav: [
           { text: "首页", link: "/zh" },
           { text: "博客", link: "/zh/blogs" },
+          { text: "折腾历程", link: "/zh/cool" },
         ],
       },
     },
@@ -44,6 +43,7 @@ export default defineConfig({
         nav: [
           { text: "ホーム", link: "/ja" },
           { text: "ブログ", link: "/ja/blogs" },
+          { text: "道のり", link: "/ja/cool" },
         ],
       },
     },
@@ -52,6 +52,7 @@ export default defineConfig({
     nav: [
       { text: "Home", link: "/" },
       { text: "Blogs", link: "/blogs" },
+      { text: "History", link: "/cool" },
     ],
     search: {
       provider: "local",
