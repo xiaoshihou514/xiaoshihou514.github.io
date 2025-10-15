@@ -10,6 +10,10 @@
 
 <ProjectCard title="jiyi" desc="跨平台加密语音日志" lang="Dart" lang_color="#00B3AA" href="https://github.com/xiaoshihou514/jiyi" />
 
+小组项目（私有仓库）：
+<ProjectCard title="WACC" desc="一个面向过程语言的编译器" lang="Scala" lang_color="#C12C40" href="https://github.com/xiaoshihou514/school" />
+<ProjectCard title="Pintos" desc="一个单核教学操作系统" lang="C" lang_color="#555555" href="https://github.com/xiaoshihou514/school" />
+
 写小组项目的时候搞的：
 
 <ProjectCard title="git-biance" desc="Git代码库中贡献可视化" lang="Rust" lang_color="#DDA583" href="https://github.com/xiaoshihou514/git-biance" />
@@ -35,7 +39,7 @@ ricing用的，虽然我现在不怎么rice了:\)
 
 ## 2023冬 ~ 2024年夏
 
-这是一个什么新技术都让我十分兴奋的时期，可以说，是我开源精神最强的时候。一方面，我有了一些技术可以写一些小东西，另一方面，这一能力让我沉迷，我迫不及待地想要运用它。
+我那是算是个技术／框架发烧友，可以说，是我开源精神最强的时候。一方面，我有了一些技术可以写一些小东西，另一方面，这一能力让我沉迷，我迫不及待地想要运用它。
 
 <ProjectCard title="ndpc" desc="自然演绎证明编译器" lang="Scala" lang_color="#C12C40" href="/ndpc" />
 
@@ -47,6 +51,9 @@ ricing用的，虽然我现在不怎么rice了:\)
 
 相关项目：
 <ProjectCard title="ndp.vim" desc="自然演绎标记语言的Vim插件" lang="Vim Script" lang_color="#199F4B" href="https://github.com/xiaoshihou514/ndp.vim" />
+
+一个小组项目（私有仓库）：
+<ProjectCard title="armv8" desc="ARM解释器+汇编器" lang="C" lang_color="#555555" href="https://github.com/xiaoshihou514/school" />
 
 我业余时间做的一些东西：
 
