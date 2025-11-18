@@ -19,6 +19,7 @@ export default defineConfig({
   description: "xiaoshihou514's personal site",
   markdown: {
     theme: JSON.parse(fs.readFileSync("./.vitepress/moonlight.json", "utf8")),
+    math: true
   },
   locales: {
     root: {
