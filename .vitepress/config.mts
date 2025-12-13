@@ -19,7 +19,7 @@ export default defineConfig({
   description: "xiaoshihou514's personal site",
   markdown: {
     theme: JSON.parse(fs.readFileSync("./.vitepress/moonlight.json", "utf8")),
-    math: true
+    math: true,
   },
   locales: {
     root: {
@@ -44,7 +44,7 @@ export default defineConfig({
         nav: [
           { text: "ホーム", link: "/ja" },
           { text: "ブログ", link: "/ja/blogs" },
-          { text: "道のり", link: "/ja/cool" },
+          { text: "学道", link: "/ja/cool" },
         ],
       },
     },
