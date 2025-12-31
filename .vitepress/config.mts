@@ -1,18 +1,14 @@
 import { defineConfig } from "vitepress";
+import { join } from "path";
 import fs from "fs";
 
 async function fetchSVG(url) {
-  const response = await fetch(url);
-  return response.text();
+  return fs.readFileSync(join(process.cwd(), url), "utf-8");
 }
 
-const sourcehut_svg = await fetchSVG("https://sourcehut.org/sourcehut.svg");
-const codeberg_svg = await fetchSVG(
-  "https://codeberg.org/Codeberg/Design/raw/branch/main/logo/icon/svg/codeberg-logo_icon_blue.svg",
-);
-const gitlab_svg = await fetchSVG(
-  "https://companieslogo.com/img/orig/GTLB-6b2d0bd2.svg?t=1752297942&download=true",
-);
+const sourcehut_svg = await fetchSVG("./public/binary/sourcehut.svg");
+const codeberg_svg = await fetchSVG("./public/binary/codeberg.svg");
+const gitlab_svg = await fetchSVG("./public/binary/gitlab.svg");
 
 export default defineConfig({
   title: "xiaoshihou514",
@@ -99,18 +95,36 @@ export default defineConfig({
     sidebar: {
       "/ndpc/": [
         {
-          text: "Ndpc",
+          text: "Introduction",
           items: [
             { text: "Getting started", link: "/ndpc/getting-started" },
             { text: "Tutorial", link: "/ndpc/tutorial" },
-            {
-              text: "Gotcha! Notes about syntax",
-              link: "/ndpc/syntax-gotchas",
-            },
-            { text: "List of supported rules", link: "/ndpc/rules" },
-            { text: "Specification for every rule", link: "/ndpc/rules-spec" },
-            { text: "Additional toolchain support", link: "/ndpc/toolchain" },
           ],
+        },
+        {
+          text: "Language Reference",
+          link: "/ndpc/syntax",
+        },
+        {
+          text: "Toolchain",
+          link: "/ndpc/toolchain",
+        },
+      ],
+      "/zh/ndpc/": [
+        {
+          text: "基础",
+          items: [
+            { text: "上手", link: "/zh/ndpc/getting-started" },
+            { text: "教程", link: "/zh/ndpc/tutorial" },
+          ],
+        },
+        {
+          text: "语法手册",
+          link: "/zh/ndpc/syntax",
+        },
+        {
+          text: "工具链",
+          link: "/zh/ndpc/toolchain",
         },
       ],
     },

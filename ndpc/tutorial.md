@@ -74,22 +74,40 @@ Prove that p -> (q -> r) ⊢ (p ^ q) -> r
 :::details answer
 
 ```
-p              [premise]
-p -> q         [premise]
 p -> (q -> r)  [premise]
-q              [->E(1,2)]
-q -> r         [->E(1,3)]
-r              [->(4,5)]
+  p ^ q        [ass]
+  p            [^E(2)]
+  q            [^E(3)]
+  q -> r       [->E(1,3)]
+  r            [->E(5,4)]
+(p ^ q) -> r   [->I(2,6)]
 ```
 
 :::
+
+## More boxes
+
+Most rules works like what we showed above, except or elimination. Here's an example, p -> r, q -> r, p ∨ q ⊢ r
+
+```
+p -> r  [premise]
+q -> r  [premise]
+p ∨ q   [premise]
+  p     [ass]
+  r     [->E(1,4)]
+  -- mandatory, separates the 2 cases
+  r     [tick(5)]
+  -- now begins the q case
+  q     [ass]
+  r     [->E(2,7)]
+r       [/E(3,4,6,7,8)]
+```
 
 ## What next?
 
 Believe it or not, that's basically all you have to know to prove propositional _and_ first order logic!
 
-I'm sure you are on a hurry, but if you have time (or you encountered some problems), read the following:
+For more reference:
 
-- ndpc has a few syntax particularities, please about them [here](/ndpc/syntax-gotchas) before opening an issue.
-- Get a peek at what rules does ndpc support [here](/ndpc/rules). Check this if ndpc thinks your proof is not valid :)
-- Leverage other shiny capabilities of ndpc, such as [formatting](/ndpc/toolchain) and [generating pretty html](/ndpc/toolchain).
+- ndpc has a few syntax particularities, please about them [here](/ndpc/syntax#gotchas) before opening an issue.
+- Get a peek at what rules does ndpc support [here](/ndpc/syntax). Check this if ndpc thinks your proof is not valid :)

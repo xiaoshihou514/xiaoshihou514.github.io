@@ -4,7 +4,7 @@
 
 ### From Github Releases
 
-The easiest way of installing ndpc is from [github releases](https://github.com/xiaoshihou514/ndpc/releases), simply download the executable for your platform and add it to your path variable. If the binary for your machine is absent, try `ndpc-universal.jar`, you will need a JDK to run it and the startup time would be slower.
+The easiest way of installing ndpc is from [github releases](https://github.com/xiaoshihou514/ndpc/releases), simply download the executable for your platform and add it to your path variable. If the binary for your machine is absent, try `ndpc.jar`, you will need a JDK to run it tho.
 
 ### Build from source
 
@@ -34,7 +34,7 @@ x       [^E(1)]
 - Run the following command:
 
 ```bash
-ndpc example.ndp
+ndpc check example.ndp
 ```
 
 - Et voilà! There's our first proof, baked and verified.
@@ -42,6 +42,6 @@ ndpc example.ndp
 ## What's next?
 
 - Follow [the tutorial](/ndpc/tutorial) to learn the basics!
-- ndpc has a few syntax particularities, please read them [here](/ndpc/syntax-gotchas) before writing more complex proofs. Don't worry, your proof won't be that different from what you are used to seeing on the slides!
-- Get a peek at what rules does ndpc support [here](/ndpc/rules). Check this if ndpc thinks your proof is not valid :)
-- Leverage other shiny capabilities of ndpc, say [formatting](/ndpc/toolchain) and [generating pretty html](/ndpc/toolchain)?
+- Get a peek at what rules does ndpc support [here](/ndpc/syntax). Check this if ndpc thinks your proof is not valid :)
+- ndpc has a few syntax particularities, please read them [here](/ndpc/syntax#gotcha) before writing more complex proofs. Don't worry, your proof won't be that different from what you are used to seeing on the slides!
+- Leverage other [shiny capabilities](/ndpc/toolchain) of ndpc, specifically formatting and exporting to a number of formats.
