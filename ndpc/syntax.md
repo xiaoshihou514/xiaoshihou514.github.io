@@ -348,7 +348,7 @@ Assume proposition / formula
 
 ### `tick` (Tick)
 
-From x deduce x (syntactic flag), see [syntax gotcha](/ndpc/syntax-gotchas) for more details
+From x deduce x (syntactic flag), see [syntax gotcha](/ndpc/syntax#gotchas) for more details
 
 ```
 1   x           [...]
