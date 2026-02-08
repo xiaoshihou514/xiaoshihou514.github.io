@@ -1,14 +1,63 @@
 # 你好，世界！
 
 - 👋 我是xiaoshihou514。
-- 💻 在学习用编程做实事，同时也学习如何更好地编程。
-- 📖 在探索纯数的奥妙，偶尔也看看它们有啥用。
-- 📚 喜欢机器人、计算机视觉、编程语言。
-- 📝 在[Fedora](https://fedoraproject.org/)上用[Neovim](https://neovim.io)写代码。
-- 👀 在有空的时候搞开源，[我的历程](/zh/cool)。
-- ✍️ 偶尔在[博客](/zh/blogs/index)记录学习心得。
-- 🏃 健身，但不搞体育。
-- 💇‍♂️ 我会做饭，还会给自己剪头。
-- 📫 联系方式：
-  - QQ: 3023063973
-  - [邮件](mailto:xiaoshihou@tutamail.com): xiaoshihou@tutamail.com
+
+<style scoped>
+.hero-images {
+  display: flex;
+  gap: 2rem;
+  margin-top: 3rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.hero-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  transition: transform 0.3s ease;
+}
+
+.hero-link:hover {
+  transform: scale(1.05);
+}
+
+.hero-image {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 24px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.hero-title {
+  margin-bottom: 1rem; /* 增加标题与图片之间的空隙 */
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .hero-image {
+    width: 250px;
+    height: 250px;
+  }
+
+  .hero-title {
+    font-size: 1rem;
+    margin-bottom: 0.75rem; /* 移动端适当调整空隙 */
+  }
+}
+</style>
+
+<div class="hero-images">
+  <a href="/zh/projects" class="hero-link">
+    <div class="hero-title">项目</div>
+    <img src="/projects.png" alt="项目" class="hero-image" />
+  </a>
+  <a href="/zh/blogs" class="hero-link">
+    <div class="hero-title">博客</div>
+    <img src="/blogs.png" alt="博客" class="hero-image" />
+  </a>
+</div>

@@ -28,6 +28,7 @@ export default defineConfig({
       themeConfig: {
         nav: [
           { text: "首页", link: "/zh" },
+          { text: "项目", link: "/zh/projects" },
           { text: "博客", link: "/zh/blogs" },
           { text: "折腾历程", link: "/zh/cool" },
         ],
@@ -39,6 +40,7 @@ export default defineConfig({
       themeConfig: {
         nav: [
           { text: "ホーム", link: "/ja" },
+          { text: "プロジェクト", link: "/ja/projects" },
           { text: "ブログ", link: "/ja/blogs" },
           { text: "学道", link: "/ja/cool" },
         ],
@@ -48,6 +50,7 @@ export default defineConfig({
   themeConfig: {
     nav: [
       { text: "Home", link: "/" },
+      { text: "Projects", link: "/projects" },
       { text: "Blogs", link: "/blogs" },
       { text: "History", link: "/cool" },
     ],
