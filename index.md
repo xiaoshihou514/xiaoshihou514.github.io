@@ -2,7 +2,7 @@
 
 - 👋 Hi, I am xiaoshihou514.
 
-This site is available on [Github pages](https://xiaoshihou514.github.io/), [Gitlab pages](https://xiaoshihou514-github-io-d98412.gitlab.io/), [Codeberg pages](https://xiaoshihou.codeberg.page/), [Sourcehut pages](https://xiaoshihou.srht.site/) and [Frama gitlab pages](https://xiaoshihou514-github-io-b8ab2b.frama.io/).
+This site is available on [Github](https://xiaoshihou514.github.io/), [Gitlab](https://xiaoshihou514-github-io-d98412.gitlab.io/), [Codeberg](https://xiaoshihou.codeberg.page/), [Sourcehut](https://xiaoshihou.srht.site/) and [Frama gitlab](https://xiaoshihou514-github-io-b8ab2b.frama.io/).
 
 <script setup lang="ts">
   import { onMounted } from 'vue'

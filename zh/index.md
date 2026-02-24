@@ -2,7 +2,7 @@
 
 - 👋 我是xiaoshihou514。
 
-本页面有以下镜像：[Github pages](https://xiaoshihou514.github.io/zh)，[Gitlab pages](https://xiaoshihou514-github-io-d98412.gitlab.io/zh)，[Codeberg pages](https://xiaoshihou.codeberg.page/zh)，[Sourcehut pages](https://xiaoshihou.srht.site/zh) and [Frama gitlab pages](https://xiaoshihou514-github-io-b8ab2b.frama.io/zh).
+本页面有以下镜像：[Github](https://xiaoshihou514.github.io/zh)，[Gitlab](https://xiaoshihou514-github-io-d98412.gitlab.io/zh)，[Codeberg](https://xiaoshihou.codeberg.page/zh)，[Sourcehut](https://xiaoshihou.srht.site/zh)以及[Frama gitlab](https://xiaoshihou514-github-io-b8ab2b.frama.io/zh).
 
 <style scoped>
 .hero-images {
