@@ -12,9 +12,8 @@ jobs:
       - run: |
           npm ci
           npm run build
-          cp -r .vitepress/dist public
       - uses: actions/git-pages@v2
         with:
           site: https://xiaoshihou.codeberg.page/
           token: ${{ forge.token }}
-          source: public
+          source: .vitepress/dist
