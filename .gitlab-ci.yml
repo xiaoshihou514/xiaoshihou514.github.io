@@ -4,9 +4,8 @@ pages:
   script:
     - npm ci
     - npm run build
-    - cp -r .vitepress/dist public
   artifacts:
     paths:
-      - public
+      - .vitepress/dist
   only:
     - main
