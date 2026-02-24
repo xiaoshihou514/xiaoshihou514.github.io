@@ -1,0 +1,15 @@
+image: alpine/edge
+oauth: pages.sr.ht/PAGES:RW
+packages:
+  - hut
+  - nodejs
+environment:
+  site: xiaoshihou.srht.site
+tasks:
+  - package: |
+      cd $site
+      npm ci
+      npm run build
+      tar -cvz .vitepress/dist > ../site.tar.gz
+  - upload: |
+      hut pages publish -d $site site.tar.gz
