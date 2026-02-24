@@ -3,3 +3,4 @@ node_modules
 .vitepress/cache
 /mise.toml
 .github/copilot-instructions.md
+site.tar.gz
