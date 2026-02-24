@@ -9,6 +9,9 @@ async function fetchSVG(url) {
 const sourcehut_svg = await fetchSVG("./public/binary/sourcehut.svg");
 const codeberg_svg = await fetchSVG("./public/binary/codeberg.svg");
 const gitlab_svg = await fetchSVG("./public/binary/gitlab.svg");
+const disroot_svg = await fetchSVG("./public/binary/disroot.svg");
+const frama_svg = await fetchSVG("./public/binary/frama.svg");
+const gitgud_svg = await fetchSVG("./public/binary/gitgud.svg");
 
 export default defineConfig({
   title: "xiaoshihou514",
@@ -80,9 +83,9 @@ export default defineConfig({
     socialLinks: [
       { icon: "github", link: "https://github.com/xiaoshihou514" },
       {
-        icon: { svg: sourcehut_svg },
-        link: "https://git.sr.ht/~xiaoshihou/",
-        ariaLabel: "Sourcehut",
+        icon: { svg: gitlab_svg },
+        link: "https://gitlab.com/xiaoshihou/",
+        ariaLabel: "Gitlab",
       },
       {
         icon: { svg: codeberg_svg },
@@ -90,9 +93,24 @@ export default defineConfig({
         ariaLabel: "Codeberg",
       },
       {
-        icon: { svg: gitlab_svg },
-        link: "https://gitlab.com/xiaoshihou/",
-        ariaLabel: "Gitlab",
+        icon: { svg: sourcehut_svg },
+        link: "https://git.sr.ht/~xiaoshihou/",
+        ariaLabel: "Sourcehut",
+      },
+      {
+        icon: { svg: disroot_svg },
+        link: "https://git.disroot.org/xiaoshihou",
+        ariaLabel: "Disroot",
+      },
+      {
+        icon: { svg: frama_svg },
+        link: "https://framagit.org/xiaoshihou/",
+        ariaLabel: "Frama",
+      },
+      {
+        icon: { svg: gitgud_svg },
+        link: "https://gitgud.io/xiaoshihou514/",
+        ariaLabel: "Gitgud",
       },
     ],
     sidebar: {
