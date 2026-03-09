@@ -1,5 +1,6 @@
 # Blogs
 
+- [Lambda calculus typer from scratch - Correction: `unifyCtx` was wrong](./2026-3-9), _2026-3-9_
 - [Lambda calculus typer from scratch - ML and algorithm W](./2025-12-2)，_2025-12-2_
 - [Lambda calculus typer from scratch - bindings and recursion](./2025-11-18), _2025-11-18_
 - [Kotlin lists](./2025-11-30), _2025-11-30_
