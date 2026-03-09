@@ -1,26 +1,26 @@
 [
   {
     "name": "codeberg",
-    "url": "ssh://git@codeberg.org/xiaoshihou/xiaoshihou514.github.io.git"
-  },
-  {
-    "name": "disroot",
-    "url": "ssh://git@git.disroot.org/xiaoshihou/xiaoshihou514.github.io.git"
+    "url": "ssh://git@codeberg.org/xiaoshihou/pages.git"
   },
   {
     "name": "sourcehut",
-    "url": "git@git.sr.ht:~xiaoshihou/xiaoshihou514.github.io"
+    "url": "git@git.sr.ht:~xiaoshihou/xiaoshihou.srht.site"
   },
   {
     "name": "gitlab",
-    "url": "git@gitlab.com:xiaoshihou/xiaoshihou514.github.io.git"
+    "url": "git@gitlab.com:xiaoshihou/xiaoshihou514.gitlab.io.git"
+  },
+  {
+    "name": "frama",
+    "url": "git@framagit.org:xiaoshihou/xiaoshihou514.frama.io.git"
   },
   {
     "name": "gitgud",
     "url": "git@gitgud.io:xiaoshihou514/xiaoshihou514.github.io.git"
   },
   {
-    "name": "frama",
-    "url": "git@framagit.org:xiaoshihou/xiaoshihou514.github.io.git"
+    "name": "disroot",
+    "url": "ssh://git@git.disroot.org/xiaoshihou/xiaoshihou514.github.io.git"
   }
 ]
