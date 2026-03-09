@@ -2,7 +2,7 @@
 
 - 👋 xiaoshihou514です。(xiǎo shí hòu・小时候・小さい時)
 
-This site is available on [Github](https://xiaoshihou514.github.io/ja), [Gitlab](https://xiaoshihou514-github-io-d98412.gitlab.io/ja), [Codeberg](https://xiaoshihou.codeberg.page/ja), [Sourcehut](https://xiaoshihou.srht.site/ja) and [Frama gitlab](https://xiaoshihou514-github-io-b8ab2b.frama.io/ja).
+This site is available on [Github](https://xiaoshihou514.github.io/ja), [Gitlab](https://xiaoshihou.gitlab.io/ja), [Codeberg](https://xiaoshihou.codeberg.page/ja), [Sourcehut](https://xiaoshihou.srht.site/ja) and [Frama gitlab](https://xiaoshihou514.frama.io/ja).
 
 <style scoped>
 .hero-images {
