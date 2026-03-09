@@ -9,11 +9,11 @@
   },
   {
     "name": "gitlab",
-    "url": "git@gitlab.com:xiaoshihou/xiaoshihou514.gitlab.io.git"
+    "url": "git@gitlab.com:xiaoshihou/xiaoshihou.gitlab.io.git"
   },
   {
     "name": "frama",
-    "url": "git@framagit.org:xiaoshihou/xiaoshihou514.frama.io.git"
+    "url": "git@framagit.org:xiaoshihou/xiaoshihou.frama.io.git"
   },
   {
     "name": "gitgud",
