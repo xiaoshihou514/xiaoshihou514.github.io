@@ -348,7 +348,7 @@ Assume proposition / formula
 
 ### `tick` (Tick)
 
-From x deduce x (syntactic flag), see [syntax gotcha](/ndpc/syntax#gotchas) for more details
+From x deduce x (syntactic flag), see [syntax gotcha](/ndpc-docs/syntax#gotchas) for more details
 
 ```
 1   x           [...]
@@ -363,7 +363,6 @@ From x deduce x (syntactic flag), see [syntax gotcha](/ndpc/syntax#gotchas) for 
 ## Gotcha!
 
 - Line numbers...
-
   - Comments and empty lines do _not_ increment line numbers!
 
   ```
@@ -378,8 +377,28 @@ From x deduce x (syntactic flag), see [syntax gotcha](/ndpc/syntax#gotchas) for 
 
   - This design ensures that you can change between a written proof and a ndpc verified proof relatively easily.
 
-- When do I use the `tick` rule?
+- Proof cannot start with a standard rule
 
+```
+p / ~p [LEM] -- Error: expected premise / ass ...
+```
+
+Add a dummy premise:
+
+```
+T [ass]
+p / ~p [LEM]
+```
+
+It's fine if you start with a block:
+
+```
+  R [ass]
+  R [tick(1)]
+R -> R [->I(1,2)]
+```
+
+- When do I use the `tick` rule?
   - You can use it whenever you feel like to, but you _MUST_ use it if you are exiting a box, _AND_ your next line does not make it clear by deindenting. See below:
 
   ```
@@ -411,4 +430,4 @@ From x deduce x (syntactic flag), see [syntax gotcha](/ndpc/syntax#gotchas) for 
 
 - Double negation...
   - Why can't I write `~~` to imply double negation?
-  - This _might_ change in the future, but currently you have to write `~(~(x))`.
+  - This _might_ change in the future, but currently you have to write `~(~x)`.

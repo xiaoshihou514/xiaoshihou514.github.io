@@ -6,12 +6,12 @@ hero:
   name: "ndpc"
   text: "Natural deduction proof compiler"
   actions:
+    - theme: alt
+      text: Playground
+      link: /ndpc
     - theme: brand
       text: Getting started
-      link: /ndpc/getting-started
-    - theme: alt
-      text: Source code
-      link: https://github.com/xiaoshihou514/ndpc
+      link: /ndpc-docs/getting-started
 
 features:
   - title: 😊 Easy to use

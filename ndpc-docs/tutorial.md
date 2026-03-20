@@ -109,5 +109,5 @@ Believe it or not, that's basically all you have to know to prove propositional 
 
 For more reference:
 
-- ndpc has a few syntax particularities, please about them [here](/ndpc/syntax#gotchas) before opening an issue.
-- Get a peek at what rules does ndpc support [here](/ndpc/syntax). Check this if ndpc thinks your proof is not valid :)
+- ndpc has a few syntax particularities, please about them [here](/ndpc-docs/syntax#gotchas) before opening an issue.
+- Get a peek at what rules does ndpc support [here](/ndpc-docs/syntax). Check this if ndpc thinks your proof is not valid :)

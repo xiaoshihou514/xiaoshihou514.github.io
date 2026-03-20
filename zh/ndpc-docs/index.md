@@ -6,12 +6,12 @@ hero:
   name: "ndpc"
   text: "自然演绎证明编译器"
   actions:
+    - theme: alt
+      text: 在线编辑
+      link: /ndpc
     - theme: brand
       text: 入门指南
       link: /zh/ndpc/getting-started
-    - theme: alt
-      text: 源代码
-      link: https://github.com/xiaoshihou514/ndpc
 
 features:
   - title: 😊 易于使用
