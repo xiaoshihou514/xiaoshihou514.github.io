@@ -4,23 +4,18 @@
 
 ### 从 GitHub 发行版安装
 
-这是安装ndpc最简单的方式：直接前往 [GitHub 发行版页面](https://github.com/xiaoshihou514/ndpc/releases)，根据你的系统平台下载对应的可执行文件，然后将其所在目录添加到系统的PATH环境变量中即可。
+安装ndpc最简单的方式为自[GitHub 发行页面](https://github.com/xiaoshihou514/ndpc/releases)下载现成的二进制文件。目前，发行版提供全平台JAR（需要安装JDK）和Linux可执行文件（可选Graal VM 或原生）。
 
-如果你的系统平台没有提供现成的二进制文件，可以尝试使用`ndpc.jar`（依赖JDK）。
+### 自源码构建
 
-### 从源代码构建
+如果没有为你的操作系统或架构的预编译二进制文件，又不想使用通用的 JAR 文件，可以选择从源代码构建。
 
-如果你的操作系统或架构没有提供预编译的发行版，又不想使用通用的 JAR 文件，可以选择从源代码构建。
-
-你需要先安装[git](https://git-scm.com/)和[Scala](https://scala-lang.org)编译器（通常需要最新稳定发行版）。
+你需要先安装[sbt](https://scala-sbt.org/)。
 
 ```bash
 git clone https://github.com/xiaoshihou514/ndpc
 cd ndpc
-# 构建原生可执行文件
-scala --power package . --native --native-mode release-full --force -o ndpc
-# 构建JAR包
-scala --power package . --assembly --force -o ndpc.jar
+make release
 ```
 
 ## 第一个证明
