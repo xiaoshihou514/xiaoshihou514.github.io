@@ -16,6 +16,7 @@ const gitgud_svg = await fetchSVG("./public/binary/gitgud.svg");
 export default defineConfig({
   title: "xiaoshihou514",
   description: "xiaoshihou514's personal site",
+  ignoreDeadLinks: ["/ndpc/index"],
   markdown: {
     theme: JSON.parse(fs.readFileSync("./.vitepress/moonlight.json", "utf8")),
     math: true,

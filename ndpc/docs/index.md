@@ -11,7 +11,7 @@ hero:
       link: /ndpc/index
     - theme: brand
       text: Getting started
-      link: /ndpc-docs/getting-started
+      link: /ndpc/docs/getting-started
 
 features:
   - title: 😊 Easy to use

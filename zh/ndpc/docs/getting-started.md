@@ -40,7 +40,7 @@ scala --power package . --assembly --force -o ndpc.jar
 
 ## 接下来可以做什么？
 
-- **学习基础**：跟随 [教程](/zh/ndpc-docs/tutorial) 掌握核心概念。
-- **查阅规则**：在 [这里](/zh/ndpc-docs/syntax) 查看 ndpc 支持的所有推理规则。如果你的证明被判定为无效，也许可以看看这份手册。
-- **注意细节**：ndpc 有一些特定的语法约定，在编写复杂证明前，建议先 [阅读此部分](/zh/ndpc-docs/syntax#重要说明！) 。
-- **探索功能**：尝试使用 ndpc 提供的其他 [实用功能](/zh/ndpc-docs/toolchain)，尤其是代码格式化和导出为多种格式的能力。
+- **学习基础**：跟随 [教程](/zh/ndpc/docs/tutorial) 掌握核心概念。
+- **查阅规则**：在 [这里](/zh/ndpc/docs/syntax) 查看 ndpc 支持的所有推理规则。如果你的证明被判定为无效，也许可以看看这份手册。
+- **注意细节**：ndpc 有一些特定的语法约定，在编写复杂证明前，建议先 [阅读此部分](/zh/ndpc/docs/syntax#重要说明！) 。
+- **探索功能**：尝试使用 ndpc 提供的其他 [实用功能](/zh/ndpc/docs/toolchain)，尤其是代码格式化和导出为多种格式的能力。

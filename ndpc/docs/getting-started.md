@@ -41,7 +41,7 @@ ndpc check example.ndp
 
 ## What's next?
 
-- Follow [the tutorial](/ndpc-docs/tutorial) to learn the basics!
-- Get a peek at what rules does ndpc support [here](/ndpc-docs/syntax). Check this if ndpc thinks your proof is not valid :)
-- ndpc has a few syntax particularities, please read them [here](/ndpc-docs/syntax#gotcha) before writing more complex proofs. Don't worry, your proof won't be that different from what you are used to seeing on the slides!
-- Leverage other [shiny capabilities](/ndpc-docs/toolchain) of ndpc, specifically formatting and exporting to a number of formats.
+- Follow [the tutorial](/ndpc/docs/tutorial) to learn the basics!
+- Get a peek at what rules does ndpc support [here](/ndpc/docs/syntax). Check this if ndpc thinks your proof is not valid :)
+- ndpc has a few syntax particularities, please read them [here](/ndpc/docs/syntax#gotcha) before writing more complex proofs. Don't worry, your proof won't be that different from what you are used to seeing on the slides!
+- Leverage other [shiny capabilities](/ndpc/docs/toolchain) of ndpc, specifically formatting and exporting to a number of formats.

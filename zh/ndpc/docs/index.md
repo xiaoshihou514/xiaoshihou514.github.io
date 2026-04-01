@@ -11,7 +11,7 @@ hero:
       link: /ndpc/index
     - theme: brand
       text: 入门指南
-      link: /zh/ndpc/getting-started
+      link: /zh/ndpc/docs/getting-started
 
 features:
   - title: 😊 易于使用

@@ -109,5 +109,5 @@ r       [/E(3,4,6,7,8)]
 
 更多参考资料：
 
-- ndpc有一些特定的语法细节，在提交问题报告前，请先[阅读此部分](/zh/ndpc-docs/syntax#gotchas)了解。
-- 在[这里](/zh/ndpc-docs/syntax)查看ndpc支持的所有推理规则。如果ndpc认为你的证明无效，也许可以读一下 :)
+- ndpc有一些特定的语法细节，在提交问题报告前，请先[阅读此部分](/zh/ndpc/docs/syntax#gotchas)了解。
+- 在[这里](/zh/ndpc/docs/syntax)查看ndpc支持的所有推理规则。如果ndpc认为你的证明无效，也许可以读一下 :)
