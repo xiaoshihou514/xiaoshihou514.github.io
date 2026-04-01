@@ -8,7 +8,7 @@ hero:
   actions:
     - theme: alt
       text: Playground
-      link: /ndpc
+      link: /ndpc/index
     - theme: brand
       text: Getting started
       link: /ndpc-docs/getting-started

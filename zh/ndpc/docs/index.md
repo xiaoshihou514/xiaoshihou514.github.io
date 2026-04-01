@@ -8,7 +8,7 @@ hero:
   actions:
     - theme: alt
       text: 在线编辑
-      link: /ndpc
+      link: /ndpc/index
     - theme: brand
       text: 入门指南
       link: /zh/ndpc/getting-started
