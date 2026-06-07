@@ -1,5 +1,5 @@
 <script setup lang="ts">
-  import ProjectCard from './components/ProjectCard.vue'
+  import ProjectCard from '../components/ProjectCard.vue'
 </script>
 
 # 2024 winter ~ 2025 summer
@@ -20,7 +20,7 @@ For ricing, though I don't rice a lot now :\)
 
 I learned more about programming during the time. It was a time when I learned a bunch of new exciting new technologies.
 
-<ProjectCard title="ndpc" desc="Natural deduction proof compiler" lang="Scala" lang_color="#C12C40" href="/ndpc" />
+<ProjectCard title="ndpc" desc="Natural deduction proof compiler" lang="Scala" lang_color="#C12C40" href="/en/ndpc" />
 
 <ProjectCard title="aristotle" desc="Easy to use gui frontend for ndpc" lang="C++" lang_color="#F34B7C" href="https://github.com/xiaoshihou514/aristotle" />
 

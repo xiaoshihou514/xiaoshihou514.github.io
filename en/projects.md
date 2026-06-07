@@ -1,7 +1,7 @@
 # Projects
 
 <script setup lang="ts">
-  import IconProjectCard from './components/IconProjectCard.vue'
+  import IconProjectCard from '../components/IconProjectCard.vue'
 </script>
 
 <IconProjectCard 

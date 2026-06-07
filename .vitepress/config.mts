@@ -16,15 +16,23 @@ const gitgud_svg = await fetchSVG("./public/binary/gitgud.svg");
 export default defineConfig({
   title: "xiaoshihou514",
   description: "xiaoshihou514's personal site",
-  ignoreDeadLinks: ["/ndpc/index"],
+  ignoreDeadLinks: ["/ndpc/index", "/en/ndpc/docs/index", "/ndpc/example_compile_out"],
   markdown: {
     theme: JSON.parse(fs.readFileSync("./.vitepress/moonlight.json", "utf8")),
     math: true,
   },
   locales: {
-    root: {
+    en: {
       label: "English",
       lang: "en",
+      themeConfig: {
+        nav: [
+          { text: "Home", link: "/en" },
+          { text: "Projects", link: "/en/projects" },
+          { text: "Blogs", link: "/en/blogs" },
+          { text: "History", link: "/en/cool" },
+        ],
+      },
     },
     zh: {
       label: "中文",
@@ -52,12 +60,6 @@ export default defineConfig({
     },
   },
   themeConfig: {
-    nav: [
-      { text: "Home", link: "/" },
-      { text: "Projects", link: "/projects" },
-      { text: "Blogs", link: "/blogs" },
-      { text: "History", link: "/cool" },
-    ],
     search: {
       provider: "local",
       options: {
@@ -115,38 +117,38 @@ export default defineConfig({
       },
     ],
     sidebar: {
-      "/ndpc/": [
+      "/en/ndpc/docs/": [
         {
           text: "Introduction",
           items: [
-            { text: "Getting started", link: "/ndpc/getting-started" },
-            { text: "Tutorial", link: "/ndpc/tutorial" },
+            { text: "Getting started", link: "/en/ndpc/docs/getting-started" },
+            { text: "Tutorial", link: "/en/ndpc/docs/tutorial" },
           ],
         },
         {
           text: "Language Reference",
-          link: "/ndpc/syntax",
+          link: "/en/ndpc/docs/syntax",
         },
         {
           text: "Toolchain",
-          link: "/ndpc/toolchain",
+          link: "/en/ndpc/docs/toolchain",
         },
       ],
-      "/zh/ndpc/": [
+      "/zh/ndpc/docs/": [
         {
           text: "基础",
           items: [
-            { text: "上手", link: "/zh/ndpc/getting-started" },
-            { text: "教程", link: "/zh/ndpc/tutorial" },
+            { text: "上手", link: "/zh/ndpc/docs/getting-started" },
+            { text: "教程", link: "/zh/ndpc/docs/tutorial" },
           ],
         },
         {
           text: "语法手册",
-          link: "/zh/ndpc/syntax",
+          link: "/zh/ndpc/docs/syntax",
         },
         {
           text: "工具链",
-          link: "/zh/ndpc/toolchain",
+          link: "/zh/ndpc/docs/toolchain",
         },
       ],
     },

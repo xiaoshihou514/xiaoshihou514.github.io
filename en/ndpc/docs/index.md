@@ -8,10 +8,10 @@ hero:
   actions:
     - theme: alt
       text: Playground
-      link: /ndpc/index
+      link: /en/ndpc/docs/index
     - theme: brand
       text: Getting started
-      link: /ndpc/docs/getting-started
+      link: /en/ndpc/docs/getting-started
 
 features:
   - title: 😊 Easy to use

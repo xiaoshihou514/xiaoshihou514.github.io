@@ -1,0 +1,65 @@
+# About me
+
+- 👋 Hi, I am xiaoshihou514.
+
+This site is available on [Github](https://xiaoshihou514.github.io/), [Gitlab](https://xiaoshihou.gitlab.io/), [Codeberg](https://xiaoshihou.codeberg.page/), [Sourcehut](https://xiaoshihou.srht.site/) and [Frama gitlab](https://xiaoshihou514.frama.io/).
+
+<style scoped>
+.hero-images {
+  display: flex;
+  gap: 2rem;
+  margin-top: 3rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.hero-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  transition: transform 0.3s ease;
+}
+
+.hero-link:hover {
+  transform: scale(1.05);
+}
+
+.hero-image {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 24px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.hero-title {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .hero-image {
+    width: 250px;
+    height: 250px;
+  }
+
+  .hero-title {
+    font-size: 1rem;
+    margin-bottom: 0.75rem;
+  }
+}
+</style>
+
+<div class="hero-images">
+  <a href="/en/projects" class="hero-link">
+    <div class="hero-title">Projects</div>
+    <img src="/projects.png" alt="Projects" class="hero-image" />
+  </a>
+  <a href="/en/blogs" class="hero-link">
+    <div class="hero-title">Blogs</div>
+    <img src="/blogs.png" alt="Blogs" class="hero-image" />
+  </a>
+</div>
